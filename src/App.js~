@@ -1,0 +1,62 @@
+import React, { Component } from 'react';
+import {Grid,Row,Col} from 'react-bootstrap';
+import Article from './Article';
+import SideBar from './SideBar';
+
+const articlesInfo = {
+  currentId: '0',
+  articles:[
+    {
+      title: 'タイトルあああああああああああああああああああああああああああああああああああああ',
+      image: 'tech_mascot_top.png',
+      content: '# 記事のタイトル \n ## 記事の小見出し \n 記事の内容 \n ![](./tech_mascot_top.png) =full',
+      description: '説明1ああああああああああああああああああああああああああああああああああああああああああああああああああああああ',
+      id: '0',
+      categoryGroupID: '0',
+    },
+    {
+      title: 'タイトル1',
+      image: 'tech_mascot_top.png',
+      source: 'article1.md',
+      content: '# 記事のタイトル \n ## 記事の小見出し \n 記事の内容 \n ![](./tech_mascot_top.png) =full',
+      description: '説明1ああああああああああああああああああああああああああああああああああああああああああああああああああああああ',
+      id: '0',
+    },
+    {
+      title: 'タイトル2',
+      image: 'tech_mascot_top.png',
+      source: 'article1.md',
+      content: '# 記事のタイトル \n ## 記事の小見出し \n 記事の内容 \n ![](./tech_mascot_top.png) =full',
+      description: '説明1ああああああああああああああああああああああああああああああああああああああああああああああああああああああ',
+      id: '0',
+    },
+  ]
+};
+function searchCurrentArticle(currentId){
+  for(const article of articlesInfo.articles){
+    if (article.id === currentId){
+      return article;
+    }
+  }
+  return {};
+}
+
+export default class App extends Component {
+  render() {
+    return (
+       <div className="App">
+          <Grid>
+            <Row className="show-grid">
+              <Col xs={12} md={8}>
+                <Article content={searchCurrentArticle(articlesInfo.currentId).content}/>
+              </Col>
+
+              <Col xs={12} md={4}>
+                <SideBar articlesInfo={articlesInfo}/>
+              </Col>
+            </Row>
+          </Grid>
+        </div>
+    );
+  }
+}

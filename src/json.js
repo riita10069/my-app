@@ -1,0 +1,78 @@
+
+
+const articles = [
+    {
+      title: 'タイトルあああああああああああああああああああああああああああああああああああああ',
+      image: 'tech_mascot_top.png',
+      content: '# 記事のタイトル \n ## 記事の小見出し \n 記事の内容 \n ![](./tech_mascot_top.png) 記事の内容の続きがちゃんと画像の下側に回り込んでいるか確認ようの文章だよ',
+      description: '説明0ああああああああああああああああああああああああああああああああああああああああああああああああああああああ',
+      id: '0',
+      categoryGroupID: '0',
+    },
+    {
+      title: 'タイトル1',
+      image: 'tech_mascot_top.png',
+      source: 'article1.md',
+      content: '# 記事のタイトル \n ## 記事の小見出し \n 記事の内容 \n ![](./tech_mascot_top.png) 記事の内容の続きがちゃんと画像の下側に回り込んでいるか確認ようの文章だよ',
+      description: '説明1ああああああああああああああああああああああああああああああああああああああああああああああああああああああ',
+      id: '0',
+    },
+    {
+      title: 'タイトル2',
+      image: 'tech_mascot_top.png',
+      source: 'article1.md',
+      content: '# 記事のタイトル \n ## 記事の小見出し \n 記事の内容 \n ![](./tech_mascot_top.png) 記事の内容の続きがちゃんと画像の下側に回り込んでいるか確認ようの文章だよ',
+      description: '説明2ああああああああああああああああああああああああああああああああああああああああああああああああああああああ',
+      id: '0',
+    },
+    {
+      title: 'タイトル3',
+      image: 'tech_mascot_top.png',
+      source: 'article1.md',
+      content: '# 記事のタイトル \n ## 記事の小見出し \n 記事の内容 \n ![](./tech_mascot_top.png) 記事の内容の続きがちゃんと画像の下側に回り込んでいるか確認ようの文章だよ',
+      description: '説明2ああああああああああああああああああああああああああああああああああああああああああああああああああああああ',
+      id: '0',
+    },{
+      title: 'タイトル4',
+      image: 'tech_mascot_top.png',
+      source: 'article1.md',
+      content: '# 記事のタイトル \n ## 記事の小見出し \n 記事の内容 \n ![](./tech_mascot_top.png) 記事の内容の続きがちゃんと画像の下側に回り込んでいるか確認ようの文章だよ',
+      description: '説明2ああああああああああああああああああああああああああああああああああああああああああああああああああああああ',
+      id: '0',
+    },{
+      title: 'タイトル5',
+      image: 'tech_mascot_top.png',
+      source: 'article1.md',
+      content: '# 記事のタイトル \n ## 記事の小見出し \n 記事の内容 \n ![](./tech_mascot_top.png) 記事の内容の続きがちゃんと画像の下側に回り込んでいるか確認ようの文章だよ',
+      description: '説明2ああああああああああああああああああああああああああああああああああああああああああああああああああああああ',
+      id: '0',
+    },{
+      title: 'タイトル6',
+      image: 'tech_mascot_top.png',
+      source: 'article1.md',
+      content: '# 記事のタイトル \n ## 記事の小見出し \n 記事の内容 \n ![](./tech_mascot_top.png) 記事の内容の続きがちゃんと画像の下側に回り込んでいるか確認ようの文章だよ',
+      description: '説明2ああああああああああああああああああああああああああああああああああああああああああああああああああああああ',
+      id: '0',
+    },{
+      title: 'タイトル7',
+      image: 'tech_mascot_top.png',
+      source: 'article1.md',
+      content: '# 記事のタイトル \n ## 記事の小見出し \n 記事の内容 \n ![](./tech_mascot_top.png) 記事の内容の続きがちゃんと画像の下側に回り込んでいるか確認ようの文章だよ',
+      description: '説明2ああああああああああああああああああああああああああああああああああああああああああああああああああああああ',
+      id: '0',
+    },{
+      title: 'タイトル8',
+      image: 'tech_mascot_top.png',
+      source: 'article1.md',
+      content: '# 記事のタイトル \n ## 記事の小見出し \n 記事の内容 \n ![](./tech_mascot_top.png) 記事の内容の続きがちゃんと画像の下側に回り込んでいるか確認ようの文章だよ',
+      description: '説明2ああああああああああああああああああああああああああああああああああああああああああああああああああああああ',
+      id: '0',
+    },{
+      title: 'タイトル9',
+      image: 'tech_mascot_top.png',
+      source: 'article1.md',
+      content: '# 記事のタイトル \n ## 記事の小見出し \n 記事の内容 \n ![](./tech_mascot_top.png) 記事の内容の続きがちゃんと画像の下側に回り込んでいるか確認ようの文章だよ',
+      description: '説明2ああああああああああああああああああああああああああああああああああああああああああああああああああああああ',
+      id: '0',
+    },
+  ]
